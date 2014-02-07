@@ -1,3 +1,4 @@
+@import url(http://fast.fonts.net/cssapi/eabcf90f-61e0-4895-9207-c66597ce0428.css);
 meta.foundation-version {
   font-family: "/5.1.0/"; }
 
@@ -965,3 +966,61 @@ select {
   .pull-11 {
     right: 91.66667%;
     left: auto; } }
+body {
+  font-family: 'AdobeGaramondW01-Regula'; }
+
+@media only screen and (max-width: 40em) {
+  h1 {
+    font-size: 1.5em; } }
+h1, h2, h3 {
+  font-family: 'TradeGothicW01-BoldCn20 675334';
+  font-weight: normal;
+  text-transform: uppercase;
+  color: #8b2331; }
+  h1 img, h2 img, h3 img {
+    height: 2.0em;
+    padding-bottom: 0.1em;
+    margin-right: 0.33em;
+    display: inline-block; }
+
+header#top {
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 20px; }
+  header#top h1 {
+    margin-bottom: 4px; }
+  header#top nav {
+    font-family: 'Adobe Garamond W01 It';
+    float: right;
+    font-size: 1.2em;
+    color: #888;
+    margin-top: -4px; }
+    header#top nav ul {
+      margin-top: 0;
+      margin-bottom: 8px; }
+      header#top nav ul li {
+        display: inline-block;
+        margin: 0 10px; }
+
+#content img {
+  border: 1px solid #aaa;
+  padding: 2px;
+  background-color: white; }
+
+a {
+  transition: color 0.2s;
+  -moz-transition: color 0.2s;
+  -webkit-transition: color 0.2s; }
+
+a:link, a:visited {
+  color: #8b2331; }
+
+a:hover, a:active {
+  color: #ffb501; }
+
+.caption {
+  margin-top: 8px;
+  text-align: center;
+  color: #888; }
+
+ul {
+  padding-left: 24px; }

@@ -1,1 +1,77 @@
-@import "foundation/components/grid"
+@import "foundation/components/grid";
+@import "foundation/components/global";
+
+@import url(http://fast.fonts.net/cssapi/eabcf90f-61e0-4895-9207-c66597ce0428.css);
+
+$umn-gold: #ffb501;
+$umn-maroon: #8b2331;
+
+body {
+    font-family:'AdobeGaramondW01-Regula';
+}
+
+@media #{$small-only} {
+    h1 {
+        font-size: 1.5em;
+    }
+}
+h1,h2,h3 {
+    font-family:'TradeGothicW01-BoldCn20 675334';
+    font-weight: normal;
+    text-transform: uppercase;
+    color: $umn-maroon;
+    img {
+        height: 2.0em;
+        padding-bottom: 0.1em;
+        margin-right: 0.33em;
+        display: inline-block;
+    }
+}
+header#top {
+    border-bottom: 1px solid #ccc;
+    h1 {
+        margin-bottom: 4px;
+    }
+    nav {
+        font-family:'Adobe Garamond W01 It';
+        float: right;
+        font-size: 1.2em;
+        color: #888;
+        margin-top: -4px;
+        ul {
+            margin-top: 0;
+            margin-bottom: 8px;
+            li {
+                display: inline-block;
+                margin: 0 10px;
+            }
+        }
+    }
+    margin-bottom: 20px;
+}
+#content {
+img {
+    border: 1px solid #aaa;
+    padding: 2px;
+    background-color: white;
+}
+}
+a {
+    transition: color 0.2s;
+    -moz-transition: color 0.2s;
+    -webkit-transition: color 0.2s;
+}
+a:link,a:visited {
+    color: $umn-maroon;
+}
+a:hover,a:active {
+    color: $umn-gold;
+}
+.caption {
+    margin-top: 8px;
+    text-align: center;
+    color: #888;
+}
+ul {
+    padding-left: 24px;
+}
