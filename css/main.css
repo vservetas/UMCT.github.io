@@ -990,6 +990,8 @@ header#top {
   margin-bottom: 20px; }
   header#top h1 {
     margin-bottom: 4px; }
+    header#top h1 a {
+      text-decoration: none; }
   header#top nav {
     font-family: 'Adobe Garamond W01';
     font-style: italic;
@@ -997,12 +999,30 @@ header#top {
     color: #888;
     float: right;
     margin-top: -4px; }
+    header#top nav a {
+      text-decoration: none; }
+      header#top nav a:link {
+        color: #777; }
+      header#top nav a:visited {
+        color: #777; }
+      header#top nav a:hover {
+        color: #8b2331; }
+      header#top nav a:active {
+        color: #8b2331; }
     header#top nav ul {
       margin-top: 0;
       margin-bottom: 8px; }
       header#top nav ul li {
         display: inline-block;
         margin: 0 10px; }
+
+footer {
+  margin-top: 2em;
+  border-top: 1px solid #cccccc;
+  clear: both;
+  color: #888;
+  padding-top: 20px;
+  text-align: center; }
 
 #content img {
   border: 1px solid #aaa;

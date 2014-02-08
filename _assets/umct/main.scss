@@ -34,8 +34,18 @@ header#top {
     border-bottom: 1px solid $hr-color;
     h1 {
         margin-bottom: 4px;
+        a {
+            text-decoration: none;
+        }
     }
     nav {
+        a {
+            text-decoration: none;
+            &:link { color: #777; }
+            &:visited { color: #777; }
+            &:hover {color: $umn-maroon;}
+            &:active {color: $umn-maroon;}
+        }
         font-family: 'Adobe Garamond W01';
         font-style: italic;
         font-size: 1.2em;
@@ -55,6 +65,15 @@ header#top {
         }
     }
     margin-bottom: 20px;
+}
+footer {
+    margin-top: 2em;
+    border-top: 1px solid $hr-color;
+    clear: both;
+    color: #888;
+    padding-top: 20px;
+    text-align: center;
+
 }
 #content {
 img {
