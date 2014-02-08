@@ -986,7 +986,7 @@ h1, h2, h3 {
     display: inline-block; }
 
 header#top {
-  border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid #cccccc;
   margin-bottom: 20px; }
   header#top h1 {
     margin-bottom: 4px; }
@@ -1027,3 +1027,37 @@ a:hover, a:active {
 
 ul {
   padding-left: 24px; }
+
+#calendar {
+  padding-left: 8px; }
+  #calendar dt {
+    font-style: italic; }
+  #calendar dd {
+    margin: 4px 0 8px 8px; }
+
+hr {
+  border: none;
+  height: 1px;
+  color: #cccccc;
+  background-color: #aaa;
+  clear: both; }
+
+h2.post-title {
+  float: left; }
+
+@media only screen and (max-width: 40em) {
+  h2.post-title {
+    margin-bottom: 0; } }
+p.post-meta {
+  font-style: italic;
+  color: #888;
+  font-weight: normal;
+  text-align: right;
+  float: right;
+  margin-top: 1.5em; }
+
+div.post-body {
+  padding: 0 1em;
+  font-size: 1.1em;
+  line-height: 1.6em;
+  text-align: justify; }

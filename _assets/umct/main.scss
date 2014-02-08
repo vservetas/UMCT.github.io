@@ -5,6 +5,7 @@
 
 $umn-gold: #ffb501;
 $umn-maroon: #8b2331;
+$hr-color: #ccc;
 
 body {
     font-family: 'Adobe Garamond W01';
@@ -30,12 +31,12 @@ h1,h2,h3 {
     }
 }
 header#top {
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid $hr-color;
     h1 {
         margin-bottom: 4px;
     }
     nav {
-        font-family:'Adobe Garamond W01';
+        font-family: 'Adobe Garamond W01';
         font-style: italic;
         font-size: 1.2em;
         color: #888;
@@ -80,4 +81,42 @@ a:hover,a:active {
 }
 ul {
     padding-left: 24px;
+}
+#calendar {
+    padding-left: 8px;
+    dt {
+        font-style: italic;
+    }
+    dd {
+        margin: 4px 0 8px 8px;
+    }
+}
+hr {
+    border: none;
+    height: 1px;
+    color: $hr-color;
+    background-color: #aaa;
+    clear: both;
+}
+h2.post-title {
+    float: left;
+}
+@media #{$small-only} {
+    h2.post-title {
+        margin-bottom: 0;
+    }
+}
+p.post-meta {
+    font-style: italic;
+    color: #888;
+    font-weight: normal;
+    text-align: right;
+    float: right;
+    margin-top: 1.5em;
+}
+div.post-body {
+    padding: 0 1em;
+    font-size: 1.1em;
+    line-height: 1.6em;
+    text-align: justify;
 }

@@ -1,9 +1,11 @@
 ---
-layout: default
+layout: base
 ---
-<h2>{{ page.title }}</h2>
-<p class="meta">{{ page.date | date_to_string }}</p>
-
-<div class="post">
+<div class="small-12 large-8 large-push-2 columns">
+<h2 class="post-title">{{ page.title }}</h2>
+<p class="post-meta">posted on {{ page.date | date_to_string }}{%if page.author%} by {{ page.author }}{%endif%}</p>
+<hr/>
+<div class="post-body">
 {{ content }}
+</div>
 </div>

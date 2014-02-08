@@ -9,11 +9,51 @@ title: Home | University of Minnesota Cycling Team
 </div>
 <div class="small-12 large-4 columns">
 <div id="home">
-  <h1>Team Blog</h1>
+  <h2>Team Blog</h2>
   <ul class="posts">
     {% for post in site.posts %}
       <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
   </ul>
+  <hr/>
+  <h2>Upcoming Events</h2>
+  <dl id="calendar">
+  </dl>
 </div>
 </div>
+<script type="application/javascript" src="/js/jquery.min.js"></script>
+<script type="application/javascript">
+$(document).ready(function() {
+    console.log("ABCDEFG");
+    $.ajax("https://www.googleapis.com/calendar/v3/calendars/umn.edu_5jts87vf1h7nmgvepift01af7c@group.calendar.google.com/events\?key\=AIzaSyB-cIQqCPOsmZhFT66F8l77_1bYB85SR-I").done(
+        function(data) {
+            console.log(data);
+            console.log(data.items);
+            data.items.forEach(
+            function(item) {
+                var link = '<a href="'+item.htmlLink+'">'+item.summary+'</a>'
+                var d_opts = {
+                    weekday: "long",
+                    year: "numeric",
+                    month: "long",
+                    day: "numeric"
+                };
+                var t_opts = {
+                    hour: "numeric",
+                    minute: "numeric",
+                }
+                    
+                if(item.start.hasOwnProperty("date")) {
+                    var date = new Date((new Date(item.start.date)).getTime()+(new Date()).getTimezoneOffset()*60000);
+                    $('#calendar').append('<dt class="event-info">'+date.toLocaleDateString("en-US", d_opts)+'</dt>');
+                } else {
+                    var date = new Date(item.start.dateTime);
+                    var edate = new Date(item.end.dateTime);
+                    $('#calendar').append('<dt class="event-info">'+date.toLocaleDateString("en-US", d_opts)+'<br/>'+date.toLocaleTimeString("en-US", t_opts)+'&mdash;'+edate.toLocaleTimeString("en-US", t_opts)+'</dt>');
+                }
+                $('#calendar').append('<dd class="event-name">'+link+'</dd>');
+            });
+        }
+    );
+});
+</script>
