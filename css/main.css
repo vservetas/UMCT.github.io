@@ -991,10 +991,11 @@ header#top {
   header#top h1 {
     margin-bottom: 4px; }
   header#top nav {
-    font-family: 'Adobe Garamond W01 It';
-    float: right;
+    font-family: 'Adobe Garamond W01';
+    font-style: italic;
     font-size: 1.2em;
     color: #888;
+    float: right;
     margin-top: -4px; }
     header#top nav ul {
       margin-top: 0;
