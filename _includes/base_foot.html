@@ -1,4 +1,13 @@
     <footer>
+    <div class="small-12 medium-8 medium-push-2 columns">
+    <h3>Our Sponsors</h3>
+    <ul class="small-block-grid-4">
+    {% for sponsor in site.data.sponsors.sponsors %}
+    <li><a href="{{sponsor.url}}"><img class="footer-sponsor" src="/img/sponsors/{{sponsor.image}}" alt="{{sponsor.name}}" /></a></li>
+    {% endfor %}
+    </ul>
+    </div>
+    <hr/>
     <h3>Follow the Team:</h3>
     <p>
     <a href="https://facebook.com/UofMCycling"><i class="fa fa-facebook-square">&nbsp;</i>Facebook</a>

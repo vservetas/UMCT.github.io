@@ -1,5 +1,6 @@
 @import "foundation/components/grid";
 @import "foundation/components/global";
+@import "foundation/components/block-grid";
 
 @import url(http://fast.fonts.net/cssapi/eabcf90f-61e0-4895-9207-c66597ce0428.css);
 
@@ -71,7 +72,7 @@ footer {
     border-top: 1px solid $hr-color;
     clear: both;
     color: #888;
-    padding-top: 20px;
+    padding-top: 0px;
     text-align: center;
 
 }
@@ -147,6 +148,20 @@ div.post-social {
 .sponsor-item p {
     padding: 0.25em 1em;
 }
+p.body-text {
+    font-size: 1em;
+    line-height: 1.4em;
+    text-align: justify;
+}
+blockquote {
+    font-size: 1em;
+    line-height: 1.4em;
+    text-align: justify;
+    color: #666;
+    border-left: 1px solid #666;
+    margin-left: 1em;
+    padding-left: 1em;
+}
 p.sponsor-description {
     font-size: 1em;
     line-height: 1.4em;
@@ -157,4 +172,6 @@ p.sponsor-description {
 }
 .tw-share-button {
     height: 20px;
+}
+img.footer-sponsor {
 }
