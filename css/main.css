@@ -967,14 +967,16 @@ select {
     right: 91.66667%;
     left: auto; } }
 body {
-  font-family: 'AdobeGaramondW01-Regula'; }
+  font-family: 'Adobe Garamond W01';
+  font-weight: 400; }
 
 @media only screen and (max-width: 40em) {
   h1 {
     font-size: 1.5em; } }
 h1, h2, h3 {
-  font-family: 'TradeGothicW01-BoldCn20 675334';
-  font-weight: normal;
+  font-family: 'Trade Gothic W01';
+  font-weight: 700;
+  font-style: normal;
   text-transform: uppercase;
   color: #8b2331; }
   h1 img, h2 img, h3 img {

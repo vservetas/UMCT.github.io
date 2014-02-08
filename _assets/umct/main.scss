@@ -7,7 +7,8 @@ $umn-gold: #ffb501;
 $umn-maroon: #8b2331;
 
 body {
-    font-family:'AdobeGaramondW01-Regula';
+    font-family: 'Adobe Garamond W01';
+    font-weight: 400;
 }
 
 @media #{$small-only} {
@@ -16,8 +17,9 @@ body {
     }
 }
 h1,h2,h3 {
-    font-family:'TradeGothicW01-BoldCn20 675334';
-    font-weight: normal;
+    font-family:'Trade Gothic W01';
+    font-weight: 700;
+    font-style: normal;
     text-transform: uppercase;
     color: $umn-maroon;
     img {
