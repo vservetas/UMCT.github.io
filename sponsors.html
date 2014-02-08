@@ -1,0 +1,13 @@
+---
+layout: base
+title: Sponsors | University of Minnesota Cycling Team
+---
+
+{% for sponsor in site.data.sponsors.sponsors %}
+<div class="small-12 medium-6 large-6 columns sponsor-item">
+    <a href="{{sponsor.url}}"><img src="/img/sponsors/{{sponsor.image}}" alt="{{sponsor.name}}" /></a>
+    <h3>{{sponsor.name}}</h3>
+    <p class="sponsor-description">{{sponsor.description}}</p>
+    <p><i><a href="{{sponsor.url}}">website &raquo;</a></i></p>
+</div>
+{% endfor %}

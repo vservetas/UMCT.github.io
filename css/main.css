@@ -1081,3 +1081,22 @@ div.post-body {
   font-size: 1.1em;
   line-height: 1.6em;
   text-align: justify; }
+
+div.post-social {
+  padding: 1em;
+  float: right;
+  clear: both; }
+
+.sponsor-item p {
+  padding: 0.25em 1em; }
+
+p.sponsor-description {
+  font-size: 1em;
+  line-height: 1.4em;
+  text-align: justify; }
+
+.fb-share-button, .tw-share-button {
+  display: inline-block; }
+
+.tw-share-button {
+  height: 20px; }
