@@ -44,8 +44,14 @@ header#top {
             text-decoration: none;
             &:link { color: #777; }
             &:visited { color: #777; }
-            &:hover {color: $umn-maroon;}
-            &:active {color: $umn-maroon;}
+            &:hover {
+                color: $umn-maroon;
+                text-shadow: 0 0 0.1em $umn-gold;
+            }
+            &:active {
+                color: $umn-maroon;
+                text-shadow: 0 0 0.1em $umn-gold;
+            }
         }
         font-family: 'Adobe Garamond W01';
         font-style: italic;
@@ -77,22 +83,31 @@ footer {
 
 }
 #content {
-img {
-    border: 1px solid #aaa;
-    padding: 2px;
-    background-color: white;
-}
+    img {
+        border: 1px solid #aaa;
+        padding: 2px;
+        background-color: white;
+    }
 }
 a {
-    transition: color 0.2s;
-    -moz-transition: color 0.2s;
-    -webkit-transition: color 0.2s;
+    transition: color 0.2s, text-shadow 0.2s;
+    -moz-transition: color 0.2s, text-shadow 0.2s;
+    -webkit-transition: color 0.2s, text-shadow 0.2s;
+    img {
+        transition: box-shadow 0.2s;
+        -moz-transition: box-shadow 0.2s;
+        -webkit-transition: box-shadow 0.2s;
+    }
 }
 a:link,a:visited {
     color: $umn-maroon;
 }
 a:hover,a:active {
     color: $umn-gold;
+    //text-shadow: 0 0 0.1em $umn-maroon;
+    img {
+        box-shadow: 0 0 0.5em $umn-gold;
+    }
 }
 .caption {
     margin-top: 8px;
