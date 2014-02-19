@@ -24,11 +24,8 @@ title: Home | University of Minnesota Cycling Team
 <script type="application/javascript" src="/js/jquery.min.js"></script>
 <script type="application/javascript">
 $(document).ready(function() {
-    console.log("ABCDEFG");
-    $.ajax("https://www.googleapis.com/calendar/v3/calendars/umn.edu_5jts87vf1h7nmgvepift01af7c@group.calendar.google.com/events\?key\=AIzaSyB-cIQqCPOsmZhFT66F8l77_1bYB85SR-I").done(
+    $.ajax("https://www.googleapis.com/calendar/v3/calendars/umn.edu_5jts87vf1h7nmgvepift01af7c@group.calendar.google.com/events\?key\=AIzaSyB-cIQqCPOsmZhFT66F8l77_1bYB85SR-I\&timeMin="+(new Date().toISOString())).done(
         function(data) {
-            console.log(data);
-            console.log(data.items);
             data.items.forEach(
             function(item) {
                 var link = '<a href="'+item.htmlLink+'">'+item.summary+'</a>'
