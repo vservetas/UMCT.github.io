@@ -1,7 +1,7 @@
     <footer>
     <div class="small-12 medium-8 medium-push-2 columns">
     <h3>Our Sponsors</h3>
-    <ul class="small-block-grid-5">
+    <ul class="small-block-grid-{{site.data.sponsors.sponsors|size}}">
     {% for sponsor in site.data.sponsors.sponsors %}
     <li><a href="{{sponsor.url}}"><img class="footer-sponsor" src="/img/sponsors/{{sponsor.image}}" alt="{{sponsor.name}}" /></a></li>
     {% endfor %}
