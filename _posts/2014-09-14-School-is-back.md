@@ -26,7 +26,7 @@ Logan Grace had a successful summer racing on fat tires. He recently finished th
 
 We'll have more news to announce soon! 
 
-If you are interested in joining the team, don't be afraid to send us a note at umct@umn.edu. 
+If you are interested in joining the team, don't be afraid to send us a note at umnct@umn.edu. 
 
 Don't forget to follow us on [Facebook](https://facebook.com/UofMCycling) and on [Twitter](https://twitter.com/uofmcycling)!
 
