@@ -14,6 +14,7 @@ We've already had an awesome start to the year. In case you missed the video on 
 <div class="fb-post" data-href="https://www.facebook.com/video.php?v=890181447677284" data-width="466"><div class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/video.php?v=890181447677284">Post</a> by <a href="https://www.facebook.com/UofMCycling">University of Minnesota Cycling Team</a>.</div></div>
 
 This year is already shaping up to be our best yet! Here's some of the highlights:
+
 * The NCCCC will be adding a small cyclocross calendar for this fall. Woohoo!
 * We've has been working hard with some new (and some old) sponsors and have a ton of great news to announce soon.
 * UMCT rider Kelly Catlin (Northstar Development) has recently taken home the U23 TT and Road national titles. Go Kelly!
