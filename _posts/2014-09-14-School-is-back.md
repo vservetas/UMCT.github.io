@@ -1,25 +1,23 @@
 ---
 layout: post
-title:  "Back to School!"
+title:  "Fall"
 date:   2014-09-14 13:03:15
-author: Grant Flick
+author: Servetas
 categories: 
 ---
 
 The Fall semester is upon us! 
 
-We've already had an awesome start to the year. In case you missed the video on our facebook page, our first group ride was HUGE. 
+We've already had an awesome start to the year. 
 
-<div id="fb-root"></div> <script>(function(d, s, id) { var js, fjs = d.getElementsByTagName(s)[0]; if (d.getElementById(id)) return; js = d.createElement(s); js.id = id; js.src = "//connect.facebook.net/en_US/all.js#xfbml=1"; fjs.parentNode.insertBefore(js, fjs); }(document, 'script', 'facebook-jssdk'));</script>
-<div class="fb-post" data-href="https://www.facebook.com/video.php?v=890181447677284" data-width="466"><div class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/video.php?v=890181447677284">Post</a> by <a href="https://www.facebook.com/UofMCycling">University of Minnesota Cycling Team</a>.</div></div>
 
 This year is already shaping up to be our best yet! Here's some of the highlights:
 
-* The NCCCC will be adding a small cyclocross calendar for this fall. Woohoo!
+* UMCT riders Madeline Arpine, Chase Wark and Ethan Depman trekked out to Collegiate Mountain Bike Nationals in Missoula, Montana. Madeline finished 6th in the short track and 13th in the cross-country race. Ethan and Chase also pulled through with 36th and 31st in the short track and 20th and 32nd in the cross-country respectively. 
 * We've has been working hard with some new (and some old) sponsors and have a ton of great news to announce soon.
-* UMCT rider Kelly Catlin (Northstar Development) has recently taken home the U23 TT and Road national titles. Go Kelly!
-* The team returned to the NSC Velodrome in force this summer. Riders Dan Thompson, Blake Kelley, Jacob Okamoto, Max Veit, and Grant Flick (Omnium Racing) all raced regularly and had some awesome results! Grant and Jacob both brought home state titles!
-* Logan Grace had a successful summer racing on fat tires. He recently finished the Chequamegon 40 in 2 hours and 17 minutes. Awesome!
+* Ellie Hedlund has helped form the start of the University of Minnesota Mountain Bike team, leading weekly shreds at Theo Wirth Mountain Bike Park. 
+* UMCT has brought in new coach, Addison Bain. Addison's work speaks for itself. Addison is not only the strongest man in Minnesota for 2018 at the Crossfit Games, he also was a key member in creating the legendary cycling program at Lindenwood University back in his college days. Addison's cycling career peaks at pro racing in Belgium. Now he is ready to bring that energy to UMCT.
+* Weekly workouts have been ongoing on Monday nights at the Rec 8 pm. Come for off-the-bike training in preparation for the winter program starting in late November for the spring road season. 
 
 <div id="fb-root"></div> <script>(function(d, s, id) { var js, fjs = d.getElementsByTagName(s)[0]; if (d.getElementById(id)) return; js = d.createElement(s); js.id = id; js.src = "//connect.facebook.net/en_US/all.js#xfbml=1"; fjs.parentNode.insertBefore(js, fjs); }(document, 'script', 'facebook-jssdk'));</script>
 <div class="fb-post" data-href="https://www.facebook.com/UofMCycling/photos/a.321804417848326.93654.151044421590994/859239087438187/?type=1" data-width="466"><div class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/UofMCycling/photos/a.321804417848326.93654.151044421590994/859239087438187/?type=1">Post</a> by <a href="https://www.facebook.com/UofMCycling">University of Minnesota Cycling Team</a>.</div></div>
